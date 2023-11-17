@@ -106,7 +106,8 @@ Then, install the Raspberry Pi GPIO module using pip (```pip install RPi.GPIO```
 Lastly, click the "run" button or run it through a VS Code directory in the terminal (```/usr/local/bin/python3 /Users/username/VSCode/morse.py```). The username would be the username of whichever user is logged into the computer.
 
 ## Circuit
-![[IMG_3690 copy.jpg]]
+![IMG_3689](https://github.com/maevegillies/Morse-Code-Lab-12/assets/143544659/492f843a-84d9-4621-8c07-2fbea88aeb49)
+
 
 ## LED
 For a regular LED, the short leg (anode, -) connects to a GND port on breadboard using a male-female jumper wire (or connected directly to the breadboard with a resistor, which is safer. In that case, read this documentation to circuit: https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins. Be aware of what GPIO pins you're using!). The long leg (cathode, +) connects to GPIO port #26.
